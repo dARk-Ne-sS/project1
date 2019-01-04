@@ -1,0 +1,15 @@
+.AppButton{
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #ffffff;
+    &:focus, &:active{
+        outline:none;
+    }
+    &:hover{
+        background: #5d5b5b;
+        color:#ffffff;
+        transition: .9s;
+    }
+}
